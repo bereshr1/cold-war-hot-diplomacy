@@ -1,24 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Cold War. Hot Diplomacy.</title>
-<style>
-body {
-    background:black;
-    color:#00ff00;
-    font-family:monospace;
-    padding:40px;
-}
-</style>
-</head>
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
 
-<body>
-
-<h1>COLD WAR. HOT DIPLOMACY.</h1>
-
-<p>ASCII diplomatic simulation coming soon.</p>
-
-<p>If you see this page, GitHub Pages is working.</p>
-
-</body>
-</html>
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+  <meta charset="UTF-8" />\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />\
+  <title>Cold War. Hot Diplomacy.</title>\
+  <link rel="stylesheet" href="style.css" />\
+</head>\
+<body>\
+  <div class="terminal">\
+    <div class="title">COLD WAR. HOT DIPLOMACY. // PROTOTYPE BUILD 0.1</div>\
+\
+    <div class="status-panel">\
+      <div class="meta" id="meta"></div>\
+      <div class="bars" id="bars"></div>\
+    </div>\
+\
+    <div class="content-panel">\
+      <div class="screen" id="screen-start"></div>\
+      <div class="screen hidden" id="screen-main"></div>\
+      <div class="screen hidden" id="screen-contacts"></div>\
+      <div class="screen hidden" id="screen-intel"></div>\
+      <div class="screen hidden" id="screen-status"></div>\
+      <div class="screen hidden" id="screen-help"></div>\
+    </div>\
+\
+    <div class="command-panel">\
+      <div class="command-help">\
+        COMMANDS: START, 1 LOW, 1 MEDIUM, 1 HIGH, 2 LOW, 2 MEDIUM, 2 HIGH, CONTACT, INTEL, STATUS, HELP, BACK, RESET\
+      </div>\
+      <div class="command-row">\
+        <div class="prompt">COMMAND &gt;</div>\
+        <input id="command-input" type="text" autocomplete="off" spellcheck="false" />\
+        <button id="run-command">ENTER</button>\
+      </div>\
+      <div class="log" id="log"></div>\
+    </div>\
+  </div>\
+\
+  <script src="main.js"></script>\
+</body>\
+</html>}
